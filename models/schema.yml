@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: test
+    tables:
+      - name: cust
+        description: "This table is department details"
+        database: PRACT
+        schema : test
+      - name: incre
+        database: PRACT
+        schema : test
+
